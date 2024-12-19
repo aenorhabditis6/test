@@ -95,6 +95,7 @@ The graph that demonstrates the number of solution region and stability is attac
 
 
 Figure 1, Phase Diagram of Constant Curvature Solution with $\alpha = 0.1$ (Chanania, 2024). 
+<img width="617" alt="PIcture at Stability regions" src="https://github.com/user-attachments/assets/63744148-d180-4061-93d7-69b00191fc5a" />
 
 ### Research Objectives
 
@@ -129,6 +130,8 @@ The chain initialization process involves calculating bead positions based on:
 The `fix_bend_new()` function initializes bead positions with curvature which is solved by the curvature equation and ensuring a relaxed initial configuration. For this study purposes, there is only one curved chain with many beads. An example of the initialization is shown below with visualization of the initial velocity: 
 
 Figure 2, Initialization Configuration with Visualization, an Example. 
+<img width="609" alt=" Curvature Initialization" src="https://github.com/user-attachments/assets/849ab53e-827e-40ec-bcc9-5bab5851274e" />
+
 
 ### Computational Approach
 
@@ -149,12 +152,14 @@ We implemented the experiment so that the simulation has zero temperature and so
 After correctly setting up the initialization and finding all the roots of the curvature equation, I observed that the filament was able to form a circular shape for a period, which aligns with the theoretical predictions for the bending and stretching parameters. However, all chains deform after a short time and gradually evolve into a straight chain. In addition, in the 2 solution case, there is always one chain with small curvature that wraps and collapses. We suspect that this might be affected by the initial tangential velocity offset. 
 
 Figure 3, Circular Chain Initialization, an Example. 
+<img width="304" alt="figure 3" src="https://github.com/user-attachments/assets/2e592bae-3df8-459a-9a18-616643dfa58b" />
 
 
 An example of 2 curvature solutions with one of them wrapped can be seen in Figure 4. 
 
 
 Figure 4, Chain Initialization for 2 Curvature Solutions with $\frac{g_B}{\sin(\alpha)} = 0.099$ and $\frac{g_S}{\sin(\alpha)} = 10.000$.  
+<img width="915" alt="results" src="https://github.com/user-attachments/assets/4ed1bb4a-a498-46ad-b38b-e524fd833013" />
 
 
 
