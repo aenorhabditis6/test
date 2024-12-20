@@ -5,15 +5,15 @@
 
 ## Abstract
 
-This independent study uses Brownian dynamics simulations following Madhuvanthi's work to investigate semi-flexible filament chain shapes under varying mechanical and thermal conditions. We looked at the interactions between bending stiffness, stretching moduli, and thermal fluctuations by setting up a new initialization filament configuration with 1 chain and many beads in a calculated curvature. Specifically, we examine how initial chain shapes evolve over time with differernt bending moduli based on our stability analysis. The simulation results showed that with the calculated curvature set-up the chain does not tend to have the expected stable shape. This is an ongoing project and further results would be tested and evaluated. 
+This independent study uses Brownian dynamics simulations following Dr. Athani's work (2024) to investigate semi-flexible filament chain shapes under varying mechanical and thermal conditions. We looked at the interactions between bending stiffness, stretching moduli, and thermal fluctuations by setting up a new initialization filament configuration with 1 chain and many beads in a calculated curvature. Specifically, we examine how initial chain shapes evolve over time with differernt bending moduli based on our stability analysis. The simulation results showed that with the calculated curvature set-up the chain does not tend to have the expected stable shape. This is an ongoing project and further results would be tested and evaluated. 
 
 ## Introduction
 
-Semiflexible filaments play a crucial role in numerous biological and synthetic systems, from cellular cytoskeletons to engineered nanomaterials. This study builds upon previous research exploring the emergent behaviors of active semiflexible filaments, with a specific focus on developing a framework for analyzing the stability of bead chain shape under different conditions.
+Semiflexible filaments play a crucial role in numerous biological and synthetic systems, from cellular cytoskeletons to engineered nanomaterials. This study builds upon previous research exploring the emergent behaviors of active semiflexible filaments, specifically focusing on developing a framework for analyzing the stability of bead chain shape under different conditions.
 
 ### Theoretical Background
 
-The fundamental challenge in modeling semiflexible filaments lies in tracking the exact behaviors of filament chaines with mechanical constraints and material properties. My investigation is grounded in Chanania's mathematical framework that describes filament dynamics through a complex interplay of forces and time. 
+The fundamental challenge in modeling semiflexible filaments lies in tracking the exact behaviors of filament chains with mechanical constraints and material properties. My investigation is grounded in Chanania's mathematical framework that describes filament dynamics through a complex interplay of forces and time. 
 
 The core of our analysis revolves around the curvature equation:
 
@@ -32,7 +32,7 @@ This equation incorporates the fundamental physical constraints governing filame
 
 ### Mathematical Modeling
 
-Chanania's work offers a rigorous mathematical framework for understanding semiflexible filament dynamics, rooted in continuum mechanics and differential geometry. There are several key mathematical constructs from the framework:
+Steinbock's work (2024) offers a rigorous mathematical framework for understanding semiflexible filament dynamics, rooted in continuum mechanics and differential geometry. There are several key mathematical constructs from the framework:
 
 #### Curve Parameterization and Geometric Definitions
 
@@ -94,7 +94,7 @@ Critically, not all solutions are stable. The stability depends on complex inter
 The graph that demonstrates the number of solution region and stability is attached. 
 
 
-Figure 1, Phase Diagram of Constant Curvature Solution with $\alpha = 0.1$ (Chanania, 2024). 
+Figure 1, Phase Diagram of Constant Curvature Solution with $\alpha = 0.1$ (Steinbock, 2024). 
 <img width="617" alt="PIcture at Stability regions" src="https://github.com/user-attachments/assets/63744148-d180-4061-93d7-69b00191fc5a" />
 
 ### Research Objectives
@@ -173,7 +173,9 @@ Future work should focus on:
 - Investigating the impact of thermal fluctuations at varying intensities
 
 ## Reference
-[1] Chanania, Nov 2024 Summary. 
+[1] Steinbock, C. (2024). *Nov 2024 summary*. [Unpublished manuscript]. Department of Physics, Johns Hopkins University.
 
-[2] Madhuvanthi, Emergent, Decaying, and Spinning Nematic Order in Collective Motion of Actice Semiflexible Filaments. 
+
+[2] Athani, M. G. (2024). *Emergent, decaying, and spinning nematic order in collective motion of active semiflexible filaments* (Doctoral dissertation, Johns Hopkins University). Johns Hopkins University.
+
 
